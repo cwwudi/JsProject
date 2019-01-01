@@ -1,0 +1,38 @@
+*{
+    margin:  0px;
+    padding: 0;
+}
+body{
+    background: antiquewhite;
+
+}
+div{
+
+
+}
+.father{
+    background-color: aqua;
+
+}
+.son{
+    background-color: blue;
+    margin-top: 5px;
+    width:45%;
+    height: 200px;
+    /*text-align: center;*/
+    /*text-indent: 2em;*/
+    line-height:200px;
+    border: 1px  solid  black;
+}
+#son1{
+    float: left;
+    margin-left: 10px;
+}
+#son2{
+    float: right;
+    margin-right: 10px;
+}
+h1
+{
+    text-shadow: 5px 5px 5px  blueviolet;
+}

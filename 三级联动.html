@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三级联动</title>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script>
+        $("input").focus(function(){
+            $("input").css("background-color","#FFFFCC");
+        });
+        $("input").blur(function(){
+            $("input").css("background-color","#D6D6FF");
+
+        })
+
+    </script>
+</head>
+<body>
+<input type="text">
+<select  id="first">
+    <option value="省">省</option>
+</select>
+<select  id="second">
+    <option value="市">市</option>
+</select>
+<select  id="third">
+    <option value="区县">区县</option>
+</select>
+
+
+</body>
+</html>

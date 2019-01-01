@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script>
+       $(function () {
+          window.setInterval(fn,200)
+           function fn() {
+              $("#tt").val($("#tt").val()+1);
+               //alert('ok');
+           }
+       })
+    </script>
+</head>
+<body>
+<input type="text"  id="tt">
+</body>
+</html>
